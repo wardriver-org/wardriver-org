@@ -33,3 +33,35 @@ So I built this partly out of nostalgia and partly because I wanted a better pic
 Try a release, report a bug, improve the docs, or suggest a feature. Please remove private locations, identifiers, and API tokens from public logs and examples.
 
 📱 Android app planned. Follow the repositories for updates.
+
+---
+
+**Support Wardriver**
+
+Infrastructure costs are growing as Wardriver grows. If you find the project useful, donations help cover hosting, map tiles, storage, and continued development. Thank you for the support.
+
+[![Bitcoin](https://img.shields.io/badge/BTC-Donate-24292f?style=flat-square&logo=bitcoin&logoColor=F7931A)](#donation-addresses)
+[![Monero](https://img.shields.io/badge/XMR-Donate-24292f?style=flat-square&logo=monero&logoColor=FF6600)](#donation-addresses)
+
+<a name="donation-addresses"></a>
+
+<details>
+<summary>Donation addresses & QR codes</summary>
+
+**Bitcoin (BTC)**
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&margin=12&data=bitcoin%3Abc1qtntclt0ws3zwwuw2nxa3t6yfek3m9vwh4m0z2s" width="180" height="180" alt="Bitcoin donation QR code">
+
+```text
+bc1qtntclt0ws3zwwuw2nxa3t6yfek3m9vwh4m0z2s
+```
+
+**Monero (XMR)**
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&margin=12&data=monero%3A82nsqhBv7g9eqPV2x4Gbu21zYrTgw7yCyY55zDbqiJs9LJW7LYByzT9ASd2Xpr4mSKbX6Z3yUJoZ5NH7ARL7URBnGqdiKG7" width="180" height="180" alt="Monero donation QR code">
+
+```text
+82nsqhBv7g9eqPV2x4Gbu21zYrTgw7yCyY55zDbqiJs9LJW7LYByzT9ASd2Xpr4mSKbX6Z3yUJoZ5NH7ARL7URBnGqdiKG7
+```
+
+</details>
