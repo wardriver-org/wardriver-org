@@ -1,86 +1,35 @@
 📡 Wardriver.org
 
-Discover the signals. Map the journey.
+Explore your survey data. Choose what you share.
 
-Explore the wireless world on foot, on two wheels, or in transit.
-Built around local data, useful maps, and deliberate sharing.
+⸻
 
-🗺️ Map discoveries · 🧭 Plan surveys · 🛡️ Choose what you share
+🗺️ What it does
 
----
+Wardriver Local is a self-hosted dashboard for your walks, bike rides, drives, and transit surveys. Run it with Docker Compose, import your logs, and explore detailed maps, routes, coverage gaps, and individual observations in a modern interface.
 
-The world has a wireless footprint
+🔒 Your data, your choice
 
-Wardriver.org is a project for turning wireless survey observations into maps you can explore and understand. Follow the routes you've covered, spot gaps in your neighborhood, compare discoveries over time, and give your next outing a purpose.
+Keep your survey data private on your own machine, or upload it to WiGLE, wardriver.org, or both. Sharing is optional. Local basemaps work offline after setup; optional online services need a connection. Camera and hardware labels are estimates to review, not proof of identity.
 
-Whether you're walking a few blocks or surveying a new city, the goal is simple: make your data useful while keeping you in control.
+⸻
 
-🚶 🚲 🚌 Every journey can be a survey
+🚶 Why I built it
 
-You don't need a car to map your world. A neighborhood walk, bike ride, bus trip, or train commute can all add a different perspective to your survey history.
+Wardriver.org came out of taking my daughter on hour-long stroller walks in the mornings. I kept noticing more cameras going up everywhere, and once I started paying attention, it was hard to stop. It bothered me how much surveillance has become part of everyday life, often without much say from the people being watched. Privacy keeps getting chipped away, and we’re supposed to get used to it.
 
-How you explore	What you can map
+It started as a project to track Flock cameras around me. As I worked on it, I kept adding ways to map and explore my surveys, and it grew into what Wardriver is today.
 
-🚶 Walking / warwalking	Explore blocks, footpaths, and neighborhoods at your own pace.
-🚲 Biking / cycling	Survey longer routes along streets and cycleways.
-🚗 Driving / wardriving	Connect neighborhoods and explore a wider area.
-🚌 Bus journeys	Turn a regular transit route into a repeat survey.
-🚆 Train, tram & subway journeys	Explore observations along rail routes wherever reception and location data are available.
-📍 Stationary surveys	Revisit a fixed location and compare observations over time.
+It also brought me back to wardriving in 2002, when my high school friend got his learner’s permit, and we finally had a way to drive around looking for wireless networks. Yes, Andrei, I’m talking about you. I had my Orinoco Gold PCMCIA cards and Slackware Linux. That was 24 years ago, which feels like an unnecessarily personal attack.
 
+WiGLE deserves a lot of respect for what it’s done for wardriving over the years. My aim is to build a local companion to WiGLE, with more granular ways to explore your own data and dig into the details of what you’re seeing around you.
 
-Wardriver Local lets you tag imports by collection method and filter your observations accordingly. Bus and rail trips currently use the Transit category. Auto-detection can infer a method from GPS movement where enough data is available; you can also choose the method yourself.
+So I built this partly out of nostalgia and partly because I wanted a better picture of the surveillance spreading around us. Same old curiosity, a different reason to care—and now I’m pushing a stroller.
 
-🏠 Meet Wardriver Local
+⸻
 
-Our self-hosted dashboard brings your survey data together on your own machine. Run it with Docker Compose, import your logs, and start exploring—no local dashboard account required.
+🤝 Get involved
 
-Explore	Understand	Go further
+Try a release, report a bug, improve the docs, or suggest a feature. Please remove private locations, identifiers, and API tokens from public logs and examples.
 
-Interactive maps and GPS traces	Import comparisons and survey insights	Coverage-aware route planning
-Heatmaps and coverage gaps	Manufacturer and inferred hardware details	Navigation handoff and GPX exports
-Locally stored regional basemaps	Plain-language questions with Ask Wardriver	Neighborhood awards and XP
-Optional cached cell-tower markers	Evidence-based Flock/ALPR review	Optional WiGLE own-data sync
-
-
-Bring your observations: WiGLE CSV, CSV, JSON, GeoJSON, GPX, and gzip-compressed imports.
-
-Keep them portable: export observations as CSV, GeoJSON, or KML, and planned routes as GPX.
-
-🛡️ Local data. Deliberate sharing.
-
-Your originals stay local. Outbound wardriver.org privacy controls transform what you upload without rewriting your local observations.
-
-You decide when to sync. WiGLE own-data sync works with your account's upload history, with explicit confirmation before sending a selected local survey.
-
-Preview before sharing. Inspect wardriver.org upload transformations, including identifier masking, reduced location precision, delayed observations, and private exclusion zones.
-
-Evidence stays visible. Inferred hardware and camera candidates are reviewable estimates; automated labels are not proof of a device's identity.
-
-
-Local basemaps can work offline after setup. Optional routing, geocoding, public-source checks, and sync use their configured network services. WiGLE uploads have separate settings from wardriver.org upload privacy controls.
-
-🌍 From personal surveys to a shared map
-
-Alongside the local dashboard, we're building the Wardriver.org public platform for community mapping and optional contributions.
-
-The local app is where you explore and manage your observations. The public platform extends the project toward shared discovery—with control over what leaves your local dataset.
-
-📱 Android app — coming soon
-
-A dedicated Wardriver Android app is planned to bring the project along for the journey—whether you're walking, biking, driving, or riding public transit.
-
-Follow this profile for development updates, previews, and release announcements. Features and availability will be shared as development progresses.
-
-⚙️ Built with
-
-      
-🤝 Help shape the project
-
-Explore the repositories, try a release, report a reproducible bug, improve the docs, or suggest a survey workflow you'd love to use.
-
-When sharing logs or sample data in an issue, remove API tokens, private locations, and personal identifiers first. Small anonymized examples make problems easier to reproduce.
-
----
-
-Map what you discover. Understand where you've been. Plan what's next.
+📱 Android app planned. Follow the repositories for updates.
